@@ -121,6 +121,7 @@ color: var(--WHITE, #FFF);
             line-height: 24px;
             /* 150% */
             letter-spacing: 0.5px;
+            width: 384px;
         }
         .greeting-title{
             display: flex;
