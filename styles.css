@@ -70,10 +70,18 @@ font-family: Montserrat;
 section{
     margin-bottom: 60px;
 }
-.hero{
+.hero {
+    height: 480px;
+}
+.hero> .container {
+    height: 100%;
     position: relative;
-    display: flex;
-        width: 944px;
+}
+.hero-list{
+    position: relative;
+    height: 100%;
+    /* display: flex; */
+        /* width: 944px;
         height: 480px;
         justify-content: center;
         align-items: center;
@@ -83,9 +91,58 @@ section{
         background-repeat: no-repeat;
         background-size: contain;
         margin-bottom: 60px;
-            border-radius: 16px;
+            border-radius: 16px; */
 }
-     
+ .hero-item{
+    position: relative;
+    width: 944px;
+        height: 480px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background-color: #7EA6A7;
+        background-image: url(./img/picture\ 1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 60px;
+        border-radius: 16px;
+ }    
+ .first{
+    background-image: url(./img/picture\ 1.png);
+ }
+ .second{
+    background-image: url(./img/picture\ 2.png);
+ }
+ .third{
+    background-image: url(./img/picture\ 3.png);
+ }
+
+.hero-btn{
+position: absolute;
+    top: 50%;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    background: var(--HERO-OVERLAY, rgba(0, 0, 0, 0.30));
+}
+
+
+ .prev{
+    left: 36px;
+       
+ }
+ .next{
+   right: 36px;
+        
+ }
+
 .greeting{
     position: absolute;
     top: 236px;
