@@ -1,7 +1,7 @@
 body{
     font-family: "Montserrat", sans-serif;
-    width: 1440px;
-
+    
+  
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
@@ -97,6 +97,7 @@ section{
         align-items: flex-start;
         gap: 8px;
         width: 432px;
+        margin-bottom: 0;
         /* height: 216px; */
         border-radius: 16px;
             background: var(--FOREST-GREEN, #0F3F3C);
