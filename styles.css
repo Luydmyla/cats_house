@@ -270,13 +270,13 @@ color: var(--GREY, #2C2C2C);
                 color: var(--GREY, #2C2C2C);
                 margin-top: 8px;
             }
-            .galllery-list{
+            .galllery{
                 display: flex;
                 flex-wrap: wrap;
                 margin-top: 40px;
                 gap: 16px;
             }
-.galllery-list > .item{
+.galllery > .item{
     flex-basis: calc((100% - 80px) / 6);
     overflow: hidden;
    border-radius: 16px;

@@ -32,3 +32,9 @@ function onClickPrev() {
 
 next.addEventListener("click", onClickNext);
 prev.addEventListener("click", onClickPrev);
+
+const lightbox = new SimpleLightbox(".galllery a", {
+  overlayOpacity: 10,
+});
+
+AOS.init();
