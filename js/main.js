@@ -37,4 +37,7 @@ const lightbox = new SimpleLightbox(".galllery a", {
   overlayOpacity: 10,
 });
 
-AOS.init();
+AOS.init({
+  duration: 2000,
+  easing: "cubic-bezier(.17,.67,.32,1.34)",
+});
